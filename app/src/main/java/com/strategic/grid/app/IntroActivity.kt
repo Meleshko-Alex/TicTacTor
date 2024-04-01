@@ -26,7 +26,7 @@ class IntroActivity : AppCompatActivity() {
             editor.putBoolean("isFirstRun", false)
             editor.apply()
 
-            var intent = Intent(this, MainActivity::class.java)
+            var intent = Intent(this, AddPlayersActivity::class.java)
             intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
             startActivity(intent)
         }

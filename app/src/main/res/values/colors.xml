@@ -6,4 +6,6 @@
     <color name="background">#1C2056</color>
     <color name="title">#F6C5B0</color>
     <color name="text">#ED8254</color>
+    <color name="dark_blue">#101132</color>
+    <color name="light_gray">#80FFFFFF</color>
 </resources>

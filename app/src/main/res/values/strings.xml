@@ -4,4 +4,8 @@
     <string name="welcome">Welcome to the Tic-Tac-Toe game!</string>
     <string name="get_started">GET STARTED</string>
     <string name="text">Here you can play classic Tic-Tac-Toe with a friend. Simply choose your opponent, place your Xs or Os, and enjoy the game together! Consider your opponent\'s strategy and strive for victory! Start the game now and immerse yourself in the world of exciting competitions!</string>
+    <string name="enter_player_names">Enter Player Names</string>
+    <string name="player_one">Player One</string>
+    <string name="player_two">Player Two</string>
+    <string name="start_game">Start Game</string>
 </resources>

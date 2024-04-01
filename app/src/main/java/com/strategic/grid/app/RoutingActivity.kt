@@ -11,7 +11,7 @@ class RoutingActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         val intent = if (isFirstRun()) Intent(this, IntroActivity::class.java)
-        else Intent(this, MainActivity::class.java)
+        else Intent(this, AddPlayersActivity::class.java)
 
         intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
         startActivity(intent)
