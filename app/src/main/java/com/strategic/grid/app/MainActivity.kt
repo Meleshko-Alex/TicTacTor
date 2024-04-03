@@ -135,6 +135,7 @@ class MainActivity : AppCompatActivity() {
         boxPositions = mutableListOf(0, 0, 0, 0, 0, 0, 0, 0, 0)
         playerTurn = 1
         totalSelectedBoxes = 1
+        changePlayerTurn(currentPlayerTurn = 1)
         binding.cell1.setImageResource(R.drawable.transparent_back)
         binding.cell2.setImageResource(R.drawable.transparent_back)
         binding.cell3.setImageResource(R.drawable.transparent_back)
